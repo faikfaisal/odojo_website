@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# O+Dojo - AI and DevOps Excellence
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React-based website for O+Dojo, showcasing AI development and DevOps services.
+
+## Project Structure
+
+The project is organized as follows:
+
+- `src/components/`: Contains reusable React components
+  - `layout/`: Layout components like Navigation and Footer
+  - `sections/`: Main page sections (Hero, Services, Expertise, Team, Contact)
+  - `ui/`: Reusable UI components
+- `src/utils/`: Utility functions, including form validation
 
 ## Available Scripts
 
@@ -39,32 +49,21 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Main Components
+
+- `App.js`: The main application component that renders all sections
+- `Navigation.jsx`: The top navigation bar
+- `Hero.jsx`: The hero section with the main call-to-action
+- `Services.jsx`: Displays the services offered by O+Dojo
+- `Expertise.jsx`: Highlights the areas of expertise
+- `Team.jsx`: Introduces the team members
+- `Contact.jsx`: Provides contact information and a contact form
+- `Footer.jsx`: The footer component with additional information and links
+
+## Styling
+
+This project uses Tailwind CSS for styling. The configuration can be found in `tailwind.config.js`.
+
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
