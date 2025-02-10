@@ -1,5 +1,3 @@
-import Logo from '../ui/Logo';
-
 // Hero Section Component
 const Hero = () => (
   <section
@@ -8,9 +6,6 @@ const Hero = () => (
   >
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="text-center py-16">
-        <div className="mx-auto w-40 mb-8">
-          <Logo className="w-full h-full" color="white" textColor="#2563eb" />
-        </div>
         <h1 className="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">
           Master the Art of Digital Innovation
         </h1>

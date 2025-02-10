@@ -1,4 +1,5 @@
 import Logo from '../ui/Logo';
+import logoWhite from '../../assets/OPlusDojo-logo.white.png'
 
 const Footer = () => (
   <footer className="bg-gray-800 text-white py-12">
@@ -6,7 +7,7 @@ const Footer = () => (
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
           <div className="flex items-center space-x-2">
-            <Logo color="white" textColor="#2563eb" />
+            <Logo logo={logoWhite} color="white" textColor="#2563eb" />
           </div>
           <p className="mt-4">Mastering the art of AI and DevOps excellence</p>
         </div>
